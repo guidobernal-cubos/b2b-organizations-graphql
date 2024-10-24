@@ -240,6 +240,7 @@ interface UISettings {
   showModal: boolean
   clearCart: boolean
   topBar?: TopBarSetting | null
+  fullImpersonation: boolean
 }
 
 interface CustomField {

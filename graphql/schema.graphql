@@ -530,6 +530,7 @@ type UISettings {
   showModal: Boolean
   clearCart: Boolean
   topBar: TopBarSettings
+  fullImpersonation: Boolean
 }
 
 scalar Data
@@ -691,6 +692,7 @@ input UISettingsInput {
   showModal: Boolean
   clearCart: Boolean
   topBar: TopBarSettingsInput
+  fullImpersonation: Boolean
 }
 
 input B2BSettingsInput {
